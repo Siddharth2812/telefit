@@ -24,9 +24,5 @@ This is a python telegram bot.
 - [pyTelegramBotAPI](https://pypi.org/project/pyTelegramBotAPI/0.3.0/)
 - [BotFather](https://medium.com/shibinco/create-a-telegram-bot-using-botfather-and-get-the-api-token-900ba00e0f39)
 
-## 📝 Submission Guidelines
-- Checkout to a branch with your name.
-- Make a PR to the main branch.
-
 ## 👀 Live Bot Preview
 - [TeleFit Bot Link](https://t.me/SIdTeleFit_bot)
