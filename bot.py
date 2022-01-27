@@ -61,7 +61,7 @@ def setUser(message):
     bot.send_message(message.chat.id, reply)
 
  
-@bot.message_handler(func=lambda message: botRunning, commands=['nutrition'])
+@bot.message_handler(func=lambda message: botRunning, commands=['nutrition', 'nu', 'Nu'])
 def getNutrition(message):
     bot.reply_to(message, 'Getting nutrition info...')
     # TODO: 1.2 Get nutrition information from the API
@@ -92,7 +92,7 @@ def getNutrition(message):
    
 
 
-@bot.message_handler(func=lambda message: botRunning, commands=['exercise'])
+@bot.message_handler(func=lambda message: botRunning, commands=['exercise', 'Ex', 'ex'])
 def getCaloriesBurn(message):
     bot.reply_to(message, 'Estimating calories burned...')
     # TODO: 2.3 Get exercise data from the API
