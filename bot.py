@@ -61,7 +61,7 @@ def setUser(message):
     bot.send_message(message.chat.id, reply)
 
  
-@bot.message_handler(func=lambda message: botRunning, commands=['nutrition', 'nu', 'Nu'])
+@bot.message_handler(func=lambda message: botRunning, commands=['nutrition'])
 def getNutrition(message):
     bot.reply_to(message, 'Getting nutrition info...')
     # TODO: 1.2 Get nutrition information from the API
